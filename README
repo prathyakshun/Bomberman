@@ -1,0 +1,76 @@
+BOMBER MAN GAME 
+
+CONTROLS:
+w - move up
+a - move left
+s - move down
+d - move right
+b - plant bomb
+p - spawn powerup
+q - Quit the game
+
+GAMEPLAY:
+*	There are a total of 3 levels in the game. 
+*	The number of enemies in the first level are 5 and the number of bricks in the first level are 25.
+*	After all the enemies are killed in a level, the player moves to the next level. In the succeeding levels, the number of enemies and bricks increase by 5
+
+*	BBBB
+	BBBB
+
+	This represents the bomberman
+
+*	%%%%
+	%%%%
+
+	This represents the bricks which can be destroyed on bomb blast
+
+*	####
+	####
+
+	This represents the wall which can't be destroyed on bomb blast
+
+*	ExxE
+	ExxE
+
+	This represents the enemy.
+	NOTE:	To kill an enemy, the enemy needs to be destoyed by the bomb x times
+
+
+RULES:
+
+Ways the bomberman can die:
+*	When the bomb blasts and he is near the explosion
+*	When he touches the enemy
+
+To WIN the game:
+*	Kill all the enemies in each of the three levels before you lives turn zero
+
+
+POWERUPS:
+*	When p is pressed, powerup is spawned. The powerup is kept active on the board for 25 FRAMES after which the powerup disappears if not collected.
+
+*	Each powerup, after collected, stays active with the player for 30 FRAMES
+
+*	FFFF
+	FFFF
+
+	This powerup enables the player to move faster
+
+*	SSSS
+	SSSS
+
+	This powerup creates a super explosion where the bomb explodes one extra postion evenly
+
+*	WWWW
+	WWWW
+
+	This powerup enables the player to move through walls/bricks
+
+*	IIII
+	IIII
+
+	This powerup makes the player immortal(he never dies on touching an enemy/staying near a bomb explosion) 
+
+SCORING:
+*	Each enemy killed    -> +100
+	Each brick destroyed -> +20
